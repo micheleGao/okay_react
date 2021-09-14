@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react';
+import {useState } from 'react';
 import { Form, Button, Alert } from 'react-bootstrap';
-import { useHistory, Link, Switch} from 'react-router-dom';
+import { useHistory, Link} from 'react-router-dom';
 
 export default function Signup() {
     const initialFormData = {
