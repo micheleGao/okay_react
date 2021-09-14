@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { Container, Image } from 'react-bootstrap';
-import { Accordion } from 'react-bootstrap';
-import Photo from '../Photo/Photo';
 
 export default function ArtistsDetails({ userInfo, loggedIn}) {
     const [show, setShow] = useState(false);
