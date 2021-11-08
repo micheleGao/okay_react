@@ -85,6 +85,7 @@ function App() {
               <Photo userInfo={userInfo} loggedIn={loggedIn} photos={photos} setPhotos={setPhotos} />
             )}
           />
+          
         </Switch>
       </Container>
     </div>
